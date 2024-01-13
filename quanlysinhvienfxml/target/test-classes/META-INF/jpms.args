@@ -1,0 +1,4 @@
+--patch-module
+com.homework.quanlysinhvienfxml=_
+--add-reads
+com.homework.quanlysinhvienfxml=ALL-UNNAMED

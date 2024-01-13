@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="443.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.homework.controller.DsLopHocController">
+   <children>
+      <TableView fx:id="tbLopHoc" layoutX="14.0" layoutY="93.0" prefHeight="293.0" prefWidth="422.0">
+        <columns>
+          <TableColumn fx:id="maLop" prefWidth="75.0" text="MaLop" />
+          <TableColumn fx:id="tenLop" prefWidth="170.0" text="TenLop" />
+            <TableColumn fx:id="gVCN" prefWidth="176.0" text="GVCN" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

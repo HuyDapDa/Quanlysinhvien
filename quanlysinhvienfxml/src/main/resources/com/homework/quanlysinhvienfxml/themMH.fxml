@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="223.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.homework.controller.ThemMHController">
+   <children>
+      <Label layoutX="14.0" layoutY="9.0" text="Insert_Update" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="55.0" text="Ma mon hoc" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="100.0" text="Ten mon hoc" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="54.0" layoutY="140.0" text="So tin chi" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtMaMH" layoutX="127.0" layoutY="52.0" />
+      <TextField fx:id="txtTenMH" layoutX="127.0" layoutY="97.0" />
+      <TextField fx:id="txtSoTinChi" layoutX="127.0" layoutY="137.0" prefHeight="25.0" prefWidth="67.0" />
+      <Button fx:id="btCheck" layoutX="221.0" layoutY="19.0" mnemonicParsing="false" onAction="#btCheck" text="Kiem tra" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btInsert" layoutX="227.0" layoutY="176.0" mnemonicParsing="false" onAction="#btInsert" text="Them" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btUpdate" layoutX="148.0" layoutY="176.0" mnemonicParsing="false" onAction="#btUpdate" text="Cap nhat" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btClear" layoutX="70.0" layoutY="176.0" mnemonicParsing="false" onAction="#btClear" prefHeight="30.0" prefWidth="74.0" text="Xoa bo" textFill="#945656">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

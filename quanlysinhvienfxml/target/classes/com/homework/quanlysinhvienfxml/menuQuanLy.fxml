@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="306.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.homework.controller.MenuQuanLyController">
+   <children>
+      <Label layoutX="48.0" layoutY="23.0" text="Insert_Update" textFill="#d33535">
+         <font>
+            <Font name="Bodoni MT Black Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="268.0" layoutY="21.0" text="View" textFill="#cd4c4c">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <Button layoutX="250.0" layoutY="60.0" mnemonicParsing="false" onAction="#btDanhSachSV" prefHeight="25.0" prefWidth="74.0" text="Sinh Vien">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btInsert" layoutX="59.0" layoutY="60.0" mnemonicParsing="false" onAction="#btInsert" prefHeight="26.0" prefWidth="120.0" text="SinhVien">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btLop" layoutX="250.0" layoutY="98.0" mnemonicParsing="false" onAction="#btLop" prefHeight="25.0" prefWidth="74.0" text="Lop">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="themLop" layoutX="59.0" layoutY="98.0" mnemonicParsing="false" onAction="#themLop" prefHeight="26.0" prefWidth="120.0" text="ThemLop">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btMH" layoutX="250.0" layoutY="141.0" mnemonicParsing="false" onAction="#btMH" prefHeight="25.0" prefWidth="74.0" text="Mon Hoc">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="themMH" layoutX="59.0" layoutY="141.0" mnemonicParsing="false" onAction="#themMH" text="ThemMonHoc">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btHoc" layoutX="251.0" layoutY="185.0" mnemonicParsing="false" onAction="#btHoc" prefHeight="25.0" prefWidth="74.0" text="SV_MH">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btDangKyMon" layoutX="59.0" layoutY="185.0" mnemonicParsing="false" onAction="#btDangKyMon" prefHeight="26.0" prefWidth="120.0" text="DangKyMon">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6018957345971564" endY="1.0" startX="0.5118483412322274">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.27688029408454895" green="0.3815789520740509" blue="0.1572246551513672" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+   </children>
+</AnchorPane>
